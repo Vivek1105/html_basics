@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATE</title>
+</head>
+<body>
+    <div class="container">
+        this is a container
+    </div>
+
+    <script>
+        console.log("this is date and time ")
+
+        let now = new Date()
+        console.log(now)
+
+        let newDate = new Date(10000)
+        console.log(newDate)
+
+        // let dt = new Date("2022-01-16")
+        // console.log(dt)
+
+        let dt = new Date(2001,10,5,10)
+        console.log(dt)
+
+        let yr = dt.getFullYear();
+        console.log("this is year  ", yr)
+
+        let month = dt.getMonth();
+        console.log("this is month  ", month)
+
+        let day = dt.getDate();
+        console.log("this is day  ", day)
+
+        // dt.setDate(27)
+        // dt.setHours(5)
+        dt.setMonth(7)
+        console.log(dt)
+
+        Date.now()
+         
+    </script>
+</body>
+</html>

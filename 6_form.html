@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>this is form of html</h1>
+
+    <form action="backend.jango"> 
+        <label for="name"> name </label>
+        <div>
+            <input type="text"name="myName" id ="name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="mydate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="mybonus">
+        </div>
+        <br>
+        <label for="terms and condition">terms and condition</label>
+        <div>
+           <input type="checkbox" name="condition"id="terms and condition">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="gender">  Female<input type="radio" name="gender">    
+        </div>
+        <br>
+        <div>
+            write here: <br><textarea name="text" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">car</label>
+            <select
+             name="mycar" id="car">
+             <option value="bmw">BMW</option>
+             <option value="suv" selected>SUV</option>
+            </select>
+                 <option value=""></option>
+        </div>
+        <div> 
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>

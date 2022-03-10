@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before_After_psedudo_selector</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            color: white;
+            background: url(/imge.jpg) no-repeat center center/cover;
+        }
+
+        .navigation {
+            font-size: 30px;
+            display: flex;
+        }
+
+        section {
+            align-items: center;
+            /* border: 2px solid red; */
+            margin: 3px 20px;
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            justify-content: center;
+            opacity: 10;
+        }
+
+        section::after {
+            content: "this is content before section"
+        }
+
+        li {
+            list-style: none;
+            padding: 30px 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item1">Home</li>
+                <li class="item2">About</li>
+                <li class="item3">Service</li>
+                <li class="item4">Contact Us</li>
+            </ul>
+        </nav>
+        <section>
+            <h1>Welcome to coding world</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, quam quod asperiores, consequatur magni
+                incidunt accusamus voluptatem eveniet id ipsam vel, praesentium pariatur! Quae exercitationem minus eius
+                dolores dolor voluptatum!</p>
+        </section>
+    </header>
+</body>
+
+</html>

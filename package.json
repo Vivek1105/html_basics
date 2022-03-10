@@ -1,0 +1,18 @@
+{
+  "name": "59_npm",
+  "version": "1.0.0",
+  "description": "this is the my firs package ",
+  "main": "53_Intri_Node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vivek"
+  ],
+  "author": "vivek singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "slugify": "^1.6.5"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set timeout clear timeout</title>
+</head>
+<body>
+    <div class="container">
+        thisis container
+    </div>
+    <script>
+        console.log("this is javascript")
+        // setTimeout -->  allows us to run the function once after the interval of time 
+        // clearTimeout --> allows us to run the function repeatedly after the interval of time 
+
+
+        // function greet(name) {
+        //     console.log("hey gud mrng" + name)    
+        // }
+        // setTimeout(greet,8000,"vivek")
+
+
+
+        // function greet(name) {
+        //     console.log("hey gud mrng" + name)   
+        // }
+        // timeOut = setTimeout(greet,8000,"vivek")
+        // console.log(timeOut)
+        // clearTimeout(timeOut)
+
+
+
+        // function greet(name) {
+        //     console.log("hey gud mrng" + name)   
+        // }
+        // setInterval(greet,2000,"vivek")
+
+
+        function greet(name) {
+            console.log("hey gud mrng" + name)
+            
+        }
+        intervalId = setInterval(greet,8000,"vivek")
+        clearInterval(intervalId)
+    </script>
+</body>
+</html>

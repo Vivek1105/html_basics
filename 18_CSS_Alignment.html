@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+
+        }
+        .box{
+            width: 900px;
+            border:solid rgb(221, 20, 47);
+            margin: auto;                              /*use for do center*/
+            background: coral;
+
+        }
+        .item{
+            border: 3px solid rgb(30, 53, 180);
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(65, 146, 65);
+            /* background: rgb(68, 8, 8); */
+
+        }
+        #fruits{
+            float: left;
+            width: 48%;
+        }
+        #ball{
+            float: right;
+            width: 48%;
+
+        }
+        #pen{
+            /* float: left; */
+            clear: both;
+            width: 100%;
+        }
+        p, h1{
+            text-align: right;
+            text-align: left;
+            text-align: center;
+            text-align: justify;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div id="fruits" class="item">
+            <h3>this the hedding of fruits</h3>
+            <p id="fruitspara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est minus obcaecati quaerat expedita voluptate. Aspernatur sapiente et, commodi aperiam, fugit consequuntur veniam, in natus quos aut laborum? Consectetur, tenetur officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cumque voluptates exercitationem dicta ea magnam aspernatur esse iste sint quia, natus numquam amet qui. Pariatur sunt delectus tenetur architecto iure. </p>
+        </div>
+
+        <div id="ball" class="item">
+            <h3>this the hedding of ball</h3>
+            <p id="ballpara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum in repudiandae neque voluptatum, voluptates deserunt minus ipsa sint ratione, omnis non, et sequi aliquid quod eaque quasi? Temporibus, alias quis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore vero culpa nam temporibus, animi quae, laudantium quisquam labore ipsa ad sapiente delectus amet sit? Voluptates eveniet beatae cupiditate non! Sapiente. </p>
+        </div>
+
+        <div id="pen" class="item">
+            <h3>this the hedding of pen</h3>
+            <p id="penspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quasi magni tempore quidem, illum expedita, reiciendis rem, aspernatur aliquam numquam tenetur dolore. Maxime id provident et non quia, officia facilis!</p>
+        </div>
+    </div>
+</body>
+</html>
